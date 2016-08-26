@@ -346,7 +346,7 @@ config ARCH_VEXPRESS
 
 config ARCH_SUNXI
 	bool "Allwinner Ltd. SUNXI family"
-	#select ARM_AMBA
+	select ARM_AMBA
 	select CLKSRC_MMIO
 	select GENERIC_CLOCKEVENTS
 	select HAVE_CLK
